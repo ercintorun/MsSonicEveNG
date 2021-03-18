@@ -30,8 +30,10 @@ cpulimit: 1
 icon: Router.png
 cpu: 2
 ram: 2048
-ethernet: 10
-eth_format: eth{0}
+ethernet: 20
+eth_name:
+ - eth0_Management 
+eth_format: Ethernet{0}
 console: telnet
 shutdown: 1
 qemu_arch: x86_64
